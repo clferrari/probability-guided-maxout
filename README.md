@@ -1,5 +1,15 @@
 ## README
 
-Code for the paper "Probability Guided Maxout"
+Official Pytorch implementation of the paper "Probability Guided Maxout"
 
 ![alt text](https://github.com/clferrari/probability-guided-maxout/blob/master/conf/method.png)
+
+# Requirements
+
+Tested with Python 3.8, PyTorch 1.6.
+
+# Usage
+
+To train the network with default params just run python train.py
+
+

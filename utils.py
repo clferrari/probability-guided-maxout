@@ -37,7 +37,7 @@ def get_network(args, model_args, use_gpu=True):
     return net
 
 
-def get_training_dataloader(dataset, mean, std, batch_size=16, num_workers=2, shuffle=True,
+def get_training_dataloader(dataset, mean, std, batch_size=16, num_workers=0, shuffle=True,
                             randSub=False, randSubPerc=0.5):
     """ return training dataloader
     Args:
